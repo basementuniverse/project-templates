@@ -1,3 +1,3 @@
-# {{PQS:name}}
+# {{PQS:projectName}}
 
 {{PQS:description}}
