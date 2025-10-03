@@ -11,7 +11,7 @@ module.exports = {
   questions: [
     {
       type: 'input',
-      name: 'projectName',
+      name: 'name',
       message: 'Project name:',
       argument: 'name',
       shortArgument: '-n',
