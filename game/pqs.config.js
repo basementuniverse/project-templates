@@ -34,9 +34,7 @@ module.exports = {
   ],
   exclude: [
     'pqs.config.js',
-    'node_modules',
-    '.git',
-    '.DS_Store',
+    '**/node_modules/**',
   ],
   steps: [
     {
