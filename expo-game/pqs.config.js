@@ -14,7 +14,7 @@ module.exports = {
       name: 'name',
       message: 'Project name:',
       argument: 'name',
-      shortArgument: '-n',
+      shortArgument: 'n',
       validate: (input) => input.length > 0 || 'Project name is required',
     },
     {
@@ -22,14 +22,14 @@ module.exports = {
       name: 'description',
       message: 'Project description:',
       argument: 'description',
-      shortArgument: '-d',
+      shortArgument: 'd',
     },
     {
       type: 'confirm',
       name: 'initialiseGit',
       message: 'Initialise git repository?',
       argument: 'git',
-      shortArgument: '-g',
+      shortArgument: 'g',
     },
   ],
   exclude: [
